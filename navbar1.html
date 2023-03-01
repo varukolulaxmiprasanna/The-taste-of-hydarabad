@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <title>Carousel</title>
+    <style>
+    img{
+        border-radius: 50%;
+       }
+        p:hover{
+            color: gold;
+        }
+        #fav{
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+    .carousel-caption{
+            position:absolute;
+            top: 10px;
+        }
+       h1{
+            position:absolute;
+            top: 10px;
+           left:850px;
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <script>
+        function Greet() {
+            alert("welcome to this website");
+        }
+        Greet();   
+    </script>
+    <div>
+     <ul class="nav justify-content-center"  >
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#" >  Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Abour As</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">New Arrivals</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Contact as</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Nearest</a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-primary" type="submit">Search</button>
+          </form><br><br>
+      </div>
+      <div>
+        <div class="carousel slide" id="carousel123" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button data-bs-target="#carousel123" data-bs-slide-to="0"></button>
+                <button data-bs-target="#carousel123" data-bs-slide-to="1"></button>
+                <button data-bs-target="#carousel123" data-bs-slide-to="2" class="active"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item "><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbsF78avE7Mn-by6oZxj4IIJMNknXcQIGU2Vxe0VeavXXKocwcoVZnGH6FoweyaOmxC9Y&usqp=CAU" alt="" class="w-100" ></div>
+                <div class="carousel-item active">
+    
+                    <img src="https://cdn.pixabay.com/photo/2016/10/25/13/42/indian-1768906__340.jpg" alt="" class="w-100">
+                <div class="carousel-caption">
+                </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQVbrsoxqk-ebOBqQ4QenyxCCOk3mXEGOC0Q&usqp=CAU" alt="" class="w-100">
+                </div>
+            </div>
+            <!--carousel-controls-->
+            
+            <a href="#carousel123" class="carousel-control-prev" data-bs-slide="prev"><i class="carousel-control-prev-icon"></i></a>
+            <a href="#carousel123" class="carousel-control-next" data-bs-slide="next"><i class="carousel-control-next-icon"></i></a>
+        </div>
+    
+      </div>
+     <div>
+
+      <h1>TOP BRANDS FOR YOU</h1><br><br>
+     <div class="row">
+        <div class="col">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_cR_lCMXmgj2I9k807VNZxLN4xLmUFknXZA&usqp=CAU" alt="" width="150" >
+            <p> Biryani</p>
+        </div>
+        <div class="col">
+            <img src="https://static.wixstatic.com/media/91e241_0cf76aa5613b4055be2f922f71edeaa0~mv2.jpg/v1/fill/w_560,h_372,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Ustaadi%20Hyderabadi%20Veg%20Biryani.jpg" alt="" width="150">
+        <p>Veg Biryani</p>
+%        </div>
+        <div class="col">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi23Ug8hUqAjIQSCpAITPZPmnsubBcKLHlqg&usqp=CAU" alt="" width="150">
+           <p>pizza</p>
+           
+        </div>
+        <div class="col">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeKtRsNG0TkCypvEObHh6BjAkESPRfltjRFA&usqp=CAU" alt="" width="150">
+            <p>Fried Rice</p>
+        </div>
+        <div class="col">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiIpE0hUYTtZihRJQpvMJIEZdPNFtbHb4JwQ&usqp=CAU" alt="" width="150">
+            <p> pizza</p>
+        </div>
+        <div class="col">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_qny_dQMs3VZX5mHv8iSyNRFRB0EH94mfPg&usqp=CAU" alt="" width="150">
+            <p>cakes</p>
+        </div>
+        <div  class="col">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTho9sLAM1DWUj48LTcf4qlaOfJY35IC2r9fQ&usqp=CAU" alt="" width="90">
+            <p>Panner</p>
+        </div>
+        <div class="col">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTweNmoXBwT_bfoZCKP_V1slUQnW_Sr2TPRkqlaRLaT0YQSfljyNVQHoIEvO-Fh-p_oikI&usqp=CAU" alt="" width="150">
+            <p>Ice cream</p>
+        </div>
+    </div>
+    
+        </div><br><br>
+    <div>
+        <div class="row" >
+            
+            <div class="card w-25 col-3 ">
+                <div class="card-header">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHH1Z5wQPDXIJmm674GhCov0gYmCT8WMoBNw&usqp=CAU" alt="" width="300px">
+                </div>
+                <div class="card-body">
+                    <h6 class="text-warning text-uppercase text-center">Venilla Cake[Egg]</h6>
+            <p class="text-capitalize text-center">venilla cake [500 mrams] Light, fluffy and pretty! Just the way loved one would want iton their special Day.</p>
+            <a href=""> 399/-</a><br>
+            <a href="" class="btn btn-outline-danger">ADD </a>
+                </div>
+                 
+            </div>
+            <!--card 2-->
+            <div class="card w-25 col-3">
+                <div class="card-header">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxs2CMG29r7HJjWGOhzA9P__RUZZ4M8uK0rQ&usqp=CAU" alt="" width="300">
+                </div>
+                <div class="card-body">
+                    <h6 class="text-warning text-uppercase text-center">Chocolate Cakes</h6>
+            <p class="text-capitalize text-center">Ferrero Rocher Chocolate Cake[500 grams] </p>
+              <a href="">590/-</a><br>
+              <a href="form.html" class="btn btn-outline-danger" target="_blank">ADD </a>
+                </div>
+                
+            </div>
+            <div class="card w-25 col-3">
+                <div class="card-header">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRdRWBW6Umrw3YmYLJ-eULE4zyVJQZjzt06g&usqp=CAU" alt="" width="310">
+                </div>
+                <div class="card-body">
+                    <h6 class="text-warning text-uppercase text-center">Chicken Dum Biryani</h6>
+            <p class="text-capitalize text-center">Succulent pieces of chicken marinated in a seasond masala and cooked to perfection in a tandoor.</p>
+              <a href="">259/-</a><br>
+              <a href="form.html" class="btn btn-outline-danger" target="_blank">ADD  </a>
+                </div>
+    
+            
+            </div>
+            <div class="card w-25 col-3">
+                <div class="card-header">
+                    <img src="https://aromaticessence.co/wp-content/uploads/2022/05/rose_lassi_recipe_card.jpg" alt="" width="300">
+                </div>
+                <div class="card-body">
+            <h6 class="text-warning text-uppercase text-center">Lassi and shakes</h6>
+            <p class="text-capitalize text-center">Lassi is a cooling, refreshing , probiotic drink perfect for round the year. </p>
+             
+              <a href="">380/-</a><br>
+              <a href="form.html" class="btn btn-outline-danger" target="_blank">ADD  </a>
+                </div>
+    
+                
+            </div>
+            <div class="card w-25 col-3">
+                <div class="card-header">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9ds96lp9oI-m0fhCYH0aMcLRLFnK957vdjQ&usqp=CAU" alt="" width="300">
+                </div>
+                <div class="card-body">
+            <h6 class="text-warning text-uppercase text-center">McSpicy Fried chicken </h6>
+            <p class="text-capitalize text-center">Enjoy 5pc of McSpicy fried chicken+2coke-perfect sharing meal for a party </p>
+             
+              <a href="">530/-</a><br>
+              <a href="form.html" class="btn btn-outline-danger" target="_blank">ADD  </a>
+                </div>
+    
+        
+            </div>
+            <div class="card w-25 col-3">
+                <div class="card-header">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLt5cbu12L5B6UlVAAZBqnkCF3P7JIGljutw&usqp=CAU" alt="" width="300">
+                </div>
+                <div class="card-body">
+            <h6 class="text-warning text-uppercase text-center">McDonald's Burger,fast food</h6>
+            <p class="text-capitalize text-center">Savings of upto rs 35! on a combo of Mcspicy chicken burger+1veg pizza mcpuff</p>
+             
+              <a href="">280/-</a><br>
+              <a href="form.html" class="btn btn-outline-danger" target="_blank">ADD  </a>
+                </div>
+    
+    
+            </div>
+            <div class="card w-25 col-3">
+                <div class="card-header">
+                    <img src="https://www.archanaskitchen.com/images/archanaskitchen/1-Author/Monika_Manchanda/Indo_chinese_Chicken_Manchurian_recipe_1.jpg" alt="" width="300">
+                </div>
+                <div class="card-body">
+            <h6 class="text-warning text-uppercase text-center">chicken Manchuriya</h6>
+            <p class="text-capitalize text-center">manchuriya is a good test, refreshing , probiotic drink perfect for round the year. </p>
+             
+              <a href="">380/-</a><br>
+              <a href="form.html" class="btn btn-outline-danger" target="_blank">ADD  </a>
+                </div>
+
+            </div>
+            <div class="card w-25 col-3">
+                <div class="card-header">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5s05as05iMSeZyiXwRGN8gNWVQK8zFOQ_Zw&usqp=CAU" alt="" width="300">
+                </div>
+                <div class="card-body">
+            <h6 class="text-warning text-uppercase text-center">Veg Soft Noodles</h6>
+            <p class="text-capitalize text-center">Our favorite.egg Noodles+chicken manchurian+coke[250ml]+chill chicken</p>
+             
+              <a href="">180/-</a><br>
+              <a href="form.html" class="btn btn-outline-danger" target="_blank">ADD  </a>
+                </div>
+
+            </div>
+        </div>
+        </div>
+    
+       
+        
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+      
+
+  </body>
+</html>
